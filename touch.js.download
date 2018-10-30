@@ -22,7 +22,7 @@ $('.checkbox').on('touchstart', function(){
         `
         <form class="menuForm" method="post">
             <fieldset>
-                <label for="start">Select your time</label>
+                <label for="start">Select your start time</label>
                     <select name="start" id="startDropdown" required>
                         <option value="sun12am">sun12am</option>
                         <option value="sun1230am">sun1230am</option>
@@ -368,7 +368,7 @@ $('.checkbox').on('touchstart', function(){
                         <option value="sat1130pm">sat1130pm</option>
                     </select>
 
-                <label for="start">Select your time</label>
+                <label for="start">Select your end time</label>
                     <select name="end" id="endDropdown" required>
                     <option value="sun12am">sun12am</option>
                     <option value="sun1230am">sun1230am</option>
